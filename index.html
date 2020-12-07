@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./css/tablet.css" media="(min-width: 930px) "/>
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Inter:wght@300;500&display=swap"
         rel="stylesheet">
@@ -15,18 +16,18 @@
         <div class="header--title-container">
             <h1>La proxima revolucion en el intercambio de criptomonedas.</h1>
             <p>Batatabit te ayuda a navegar en los diferentes precios y tendencias</p>
-            <a href="#plans" class="header--button">Conoce Nuestros Planes <span></span></a>
+            <a href="#planes" class="header--button">Conoce Nuestros Planes <span></span></a>
         </div> 
     </header>
         <main>
-            <section class="main-exchange-container">
+            <div class="main-exchange-container">
                 <div class="backgroundImg"></div>
                 <div class="main-exchange-container--title">
                     <h2>Visibilizamos todas las tasas de cambio.</h2>
                     <p>Tradeos informacion en tiempo real de las casa de cambio y las monedas mas importantes del mundo</p>
-                </div>
-                <section class="main-tables-container"> 
-                <div class="main-currency-table"">
+                </div>   
+            <div class="main-tables-container"> 
+                <div class="main-currency-table">
                     <p class="currency-table--title">Monedas</p>
                     <div class="currency-table--container"">
                         <table>
@@ -48,6 +49,7 @@
                             </tr>
                         </table>
                     </div>
+                </div> 
                     <div class="currency-table--date">
                         <p><b>Actualizado:</b> 2 de Diciembre 09:12</p>
                     </div>
@@ -76,10 +78,9 @@
                         <div class="comission-table--date">
                             <p><b>Actualizado:</b> 2 de Diciembre 09:12</p>
                         </div>
+                    </div>
                 </div>
-                <div></div>
-                </section>
-            </section>
+            </div>
             <section class="main-product-detail">
                 <span class="product-detail--batatalogo"></span>
                 <div class="product-detail--title">
@@ -109,9 +110,59 @@
                     </article>
                 </section>
             </section>
-            <section></section>
-            <section></section> 
+            <section class="bitcoin-img-container">
+                <h2>Conocelo Hoy.</h2>
+            </section>
+        <section id="planes" class="main-plans-container">
+            <div class="plans--title">
+                <h2>Escoge el plan que mejor se ajuste a ti</h2>
+                <p>Cualquier Plan te da acceso completo a nuestra plataforma</p>
+            </div>
+            <div class="plans-container--slider">
+                <div class="plans-container--card">
+                    <!-- <p class="recomendado">Recomendado</p> -->
+                    <div class="plan-info-container">
+                        <h3 class="plan-card--title">Pago Mensual</h3>
+                        <p class="plan-card--price"><span>$</span>15<span>.99</span> </p>
+                        <p class="plan-card-saving">* Paga por tu subscripcion mensualmente.</p>
+                        <button class="plan-card--ca">ESCOGE ESTE <span></span>
+                        </button>
+                    </div>
+                </div>
+                <div class="plans-container--card">
+                    <p class="recomendado">Recomendado</p>
+                    <div class="plan-info-container">
+                        <h3 class="plan-card--title">Pago Anual</h3>
+                        <p class="plan-card--price"><span>$</span>99<span>.99</span> </p>
+                        <p class="plan-card-saving">* Ahorras $129 comprando el plan mensual.</p>
+                        <button class="plan-card--ca">ESCOGE ESTE <span></span>
+                        </button>
+                    </div>
+                </div>
+                <div class="plans-container--card">
+                    <!-- <p class="recomendado">Recomendado</p> -->
+                    <div class="plan-info-container">
+                        <h3 class="plan-card--title">Pago Semestral</h3>
+                        <p class="plan-card--price"><span>$</span>69<span>.99</span></p>
+                        <p class="plan-card-saving">* Ahorras $129 comprando el plan mensual.</p>
+                        <button class="plan-card--ca">ESCOGE ESTE <span></span>
+                        </button>
+                        </div>
+                    </div>
+            </div>
+        </section>
         </main> 
-        <footer></footer>
-</body>
+        <footer>
+                <section class="left">
+                    <ul>
+                        <li><a href="#">Linkedin</a></li>
+                        <li><a href="#">Crunchbase</a></li>
+                        <li><a href="#">Hackernewus</a></li>
+                    </ul>
+                </section>
+                <section class="rigth"> 
+                    <img src="./assest/img/logo-footer.svg" alt="logo de BatataBeat 2020">
+                </section>
+        </footer>
+    </body>
 </html>
